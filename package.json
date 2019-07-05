@@ -1,0 +1,23 @@
+{
+  "name": "@xtream/yaem",
+  "author": "Luca Micieli <luca.micieli@xtreamers.io>",
+  "description": "Pure javascript porting of @ngrx/entity to use also with React",
+  "version": "0.0.1",
+  "typings": "build/index.d.ts",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "scripts": {
+    "build": "npx babel src -d build --extensions \".ts\"",
+    "check-types": "tsc",
+    "emit-types": "tsc --declaration --outDir build --emitDeclarationOnly --declarationMap"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "typescript": "^3.5.2"
+  }
+}
