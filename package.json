@@ -2,7 +2,7 @@
   "name": "@xtream/yaem",
   "author": "Luca Micieli <luca.micieli@xtreamers.io>",
   "description": "Pure javascript porting of @ngrx/entity to use also with React",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "typings": "build/index.d.ts",
   "main": "build/index.js",
   "module": "build/index.js",

@@ -1,4 +1,5 @@
 import {createEntityAdapter} from './create_adapter';
+import {createSelectorsFactory} from './state_selectors';
 import {Comparer, Dictionary, EntityAdapter, EntityMap, EntityState, IdSelector, Predicate, Update,} from './models';
 import {
   AnyFn,
@@ -47,4 +48,9 @@ export {
   resultMemoize,
   SelectorFactoryConfig,
   AnyFn
+}
+
+
+export{
+  createSelectorsFactory
 }
