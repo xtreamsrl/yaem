@@ -129,4 +129,22 @@ export default function reducer(state: UsersState = defaultState, action: usersA
   }
 }
 
+const {    
+  selectIds,
+  selectEntities,
+  selectAll,
+  selectTotal
+} = adapter.getSelectors();
+
+export {
+  selectIds,
+  selectEntities,
+  selectAll,
+  selectTotal
+};
+
+
+
+
+
 ```
