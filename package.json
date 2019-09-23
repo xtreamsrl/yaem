@@ -2,9 +2,13 @@
   "name": "@xtream/yaem",
   "author": "Luca Micieli <luca.micieli@xtreamers.io>",
   "description": "Pure javascript porting of @ngrx/entity to use also with React",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "typings": "build/index.d.ts",
   "main": "build/index.js",
+  "repository": {
+    "url": "https://github.com/xtreamsrl/yaem"
+  },
+  "keywords": ["entities", "redux", "ngrx", "reselect", "memoization"],
   "module": "build/index.js",
   "scripts": {
     "build": "npx babel src -d build --extensions \".ts\"",
