@@ -3,6 +3,11 @@
 yaem (Yet Another Entity Manager) is a pure  @ngrx/entity porting that removes the Angular and @ngrx/store dependency
 so that it can be used also in React project.
 
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 
+# Warning
+ I'll consider this project deprecated considering that the entity management features are now integrated directly in [@redux/toolikt](https://redux-toolkit.js.org/)
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
 The two most important features are Memoized selectors and an entity adapter, a simple utils that allows to manage entities 
 in the store preserving immutability.
 
